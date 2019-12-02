@@ -1,0 +1,81 @@
+* {
+    font-family: "Playfair Display-Regular";
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 960px;
+    align-content: center;
+}
+main {
+    width: 960px;
+}
+ul {
+    display: inline-block;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 50px;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+#lifestyle {
+    color: blue;
+}
+li>a:hover {
+    color: mediumvioletred;
+    background: white;
+    font-size: 18px;
+}
+#lifestyle:hover {
+    color: mediumvioletred;
+    background: white;
+    font-size: 18px; 
+}
+main {
+    display: inline-block;
+    width: 960px;
+    text-align: center;
+}
+article {
+    display: inline-block;
+    width: 470px;
+    padding: 25px;
+}
+p {
+    text-align: justify;
+    ;
+}
+
+.font {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Ubuntu-Light";
+}
+
+h2 {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 2;
+}
+form {
+margin: 0 35px;
+text-align: left;
+}
+
