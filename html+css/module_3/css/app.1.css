@@ -1,0 +1,148 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: "Playfair Display-Regular";
+    font-size: 14px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.header_container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 103px;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.li_1 {
+    margin-right: 163px;
+}
+
+.li_2 {
+    margin-left: 163px;
+}
+
+.li_3 {
+    margin-left: 128px;
+    margin-right: 103px;
+}
+
+.li_4 {
+    margin-right: 95px;
+}
+
+.navigation li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+    
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+#lifestyle {
+    color: blue;
+}
+.navigation a:hover,
+.navigation a:focus
+ {
+    color: mediumvioletred;
+    background: white;
+    font-size: 18px;
+}
+#lifestyle:hover {
+    color: mediumvioletred;
+    background: white;
+    font-size: 18px; 
+}
+
+.features {
+    display: inline-block;
+    font-size: 0;
+
+}
+
+.features_list {
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 60px;
+    list-style: none;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 132px;
+}
+
+
+.features_list:nth-child(2n) {
+    margin-right: 0;
+}
+
+.features_list h2 {
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.font {
+    text-align: left;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    margin: 0 0;
+}
+
+.features_list p {
+    margin: 0;
+}
+
+.features_list:nth-child(4n+1) {
+    margin-bottom: 75px;
+}
+.features_list:nth-child(6n) {
+    margin-bottom: 75px;
+}
+
+.button {
+    text-align: center;
+}
+
+
+.button1 {
+    margin: 0;
+    padding: 20px 34px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Playfair Display";
+    background-color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
