@@ -11,17 +11,18 @@ html {
     font-size: 14px;
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     width: 900px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
 }
 
-.header_container {
-    width: 900px;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 103px;
+header {
+margin-bottom: 103px;
 }
 
 .navigation {
@@ -29,43 +30,38 @@ html {
     padding: 0;
     list-style: none;
     display: inline-block;
+    font-size: 0;
 }
 
-.li_1 {
-    margin-right: 163px;
-}
-
-.li_2 {
-    margin-left: 163px;
-}
-
-.li_3 {
-    margin-left: 128px;
-    margin-right: 103px;
-}
-
-.li_4 {
-    margin-right: 95px;
-}
 
 .navigation li {
     display: inline-block;
     text-decoration: none;
     color: black;
     background: none;
+    margin-right: 60px;
+    font-size: 14px;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
 }
 
 .navigation a {
     text-decoration: none;
 }
 
+.page-nav {
+    text-align: center;
+}
     
 img {
     display: block;
-    height: auto;
-    max-width: 100%;
+    width: 420px;
+    height: 279px;
     margin-bottom: 30px;
 }
+
 
 
 #lifestyle {
@@ -76,12 +72,11 @@ img {
  {
     color: mediumvioletred;
     background: white;
-    font-size: 18px;
 }
+
 #lifestyle:hover {
     color: mediumvioletred;
     background: white;
-    font-size: 18px; 
 }
 
 .features {
@@ -92,8 +87,6 @@ img {
 
 .features_list {
     width: 420px;
-    margin: 0;
-    padding: 0;
     display: inline-block;
     margin-right: 60px;
     list-style: none;
@@ -108,7 +101,8 @@ img {
 }
 
 .features_list h2 {
-    margin-bottom: 24px;
+    margin: 0;
+    margin-bottom: 40px;
     font-size: 30px;
 }
 
@@ -116,10 +110,11 @@ img {
     text-align: left;
     font-size: 14px;
     font-family: "Ubuntu";
-    margin: 0 0;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
-.features_list p {
+.text {
     margin: 0;
 }
 
@@ -130,13 +125,9 @@ img {
     margin-bottom: 75px;
 }
 
-.button {
-    text-align: center;
-}
-
-
 .button1 {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
     padding: 20px 34px;
     font-size: 20px;
     line-height: 24px;
@@ -145,4 +136,10 @@ img {
     font-weight: 400;
     cursor: pointer;
     margin-bottom: 70px;
+
+}
+
+.button1:hover {
+    color: mediumvioletred;
+    background: white;
 }
