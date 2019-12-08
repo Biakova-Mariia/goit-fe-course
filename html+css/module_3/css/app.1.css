@@ -37,7 +37,6 @@ margin-bottom: 103px;
 .navigation li {
     display: inline-block;
     text-decoration: none;
-    color: black;
     background: none;
     margin-right: 60px;
     font-size: 14px;
@@ -49,6 +48,7 @@ margin-bottom: 103px;
 
 .navigation a {
     text-decoration: none;
+    color: #111111;
 }
 
 .page-nav {
@@ -61,8 +61,6 @@ img {
     height: 279px;
     margin-bottom: 30px;
 }
-
-
 
 #lifestyle {
     color: blue;
