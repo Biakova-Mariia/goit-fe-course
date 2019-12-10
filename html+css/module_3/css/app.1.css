@@ -25,6 +25,11 @@ header {
 margin-bottom: 103px;
 }
 
+.page-nav {
+    text-align: center;
+    padding-top: 77px;
+}
+
 .navigation {
     margin: 0;
     padding: 0;
@@ -40,6 +45,7 @@ margin-bottom: 103px;
     background: none;
     margin-right: 60px;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 .navigation li:last-child {
@@ -48,12 +54,12 @@ margin-bottom: 103px;
 
 .navigation a {
     text-decoration: none;
-    color: #111111;
+    color: #626262;
+    font-weight: 400;
+    line-height: 24px; 
 }
 
-.page-nav {
-    text-align: center;
-}
+
     
 img {
     display: block;
@@ -63,23 +69,26 @@ img {
 }
 
 #lifestyle {
-    color: blue;
+    color: #626262;
 }
+
 .navigation a:hover,
 .navigation a:focus
  {
-    color: mediumvioletred;
+    color: #f4035f;
     background: white;
 }
 
 #lifestyle:hover {
-    color: mediumvioletred;
+    color: #03a9f4;
     background: white;
+    
 }
 
 .features {
     display: inline-block;
     font-size: 0;
+    padding-bottom: 70px;
 
 }
 
@@ -126,18 +135,20 @@ img {
 .button1 {
     display: block;
     margin: 0 auto;
-    padding: 20px 34px;
+    padding: 18px 34px;
     font-size: 20px;
     line-height: 24px;
     font-family: "Playfair Display";
     background-color: #ffffff;
+    color: #626262;
     font-weight: 400;
     cursor: pointer;
-    margin-bottom: 70px;
-
+    border: 1px solid #626262;
 }
 
-.button1:hover {
-    color: mediumvioletred;
+.button1:hover,
+.button1:focus
+ {
+    color: #03a9f4;
     background: white;
 }
