@@ -412,7 +412,7 @@ img {
     padding: 0;
     height: 282px;
     width: 255px;
-    border: 10px solid #ffffff;
+    border: 10px solid rgba(255, 255, 255, 0.55);
     background-color: rgba(0, 0, 0, 0.55);
     padding-top: 89px;
     text-align: center;
