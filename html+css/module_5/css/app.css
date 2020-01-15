@@ -23,17 +23,17 @@ html {
 
 
 .page-nav {
+    width: 1110px;
     margin: 0 auto;
     padding: 0;
     font-size: 0;
-    padding: 5px 0 12px;
+    padding: 36px 32px 12px;
     list-style: none;
     height: 91px;
-    position: relative;
 }
 
 .container {
-    width: 1110px;
+    width: 1648px;
     margin: 0 auto;
 }
 
@@ -42,19 +42,8 @@ img {
     height: auto;
 }
 
-.over_logo {
-    position: absolute;
-    display: inline-block;
-    width: 258px;
-    height: 74px;
-    left: -6px;
-}
-
 
 .site-logo {
-    position: absolute;
-    top: 30px;
-    left: 8px;
     display: inline-block;
     margin: 0;
     width: 84px;
@@ -86,8 +75,8 @@ img {
     margin: 0;
     padding: 0;
     float: right;
-    padding-top: 38px;
     width: 467px;
+    padding-top: 16px;
 }
 
 
@@ -125,36 +114,30 @@ img {
     margin: 0 auto;
     padding: 0;
     height: 600px;
-    position: relative;
     list-style: none;
+    
 }
 
 .slider img {
+    display: block;
     height: 600px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    object-fit: cover;
+    position: relative;
+    filter: brightness(52%);
+    
 }
-
-.slider_fon {
-    height: 600px;
-    width: 1110px;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    opacity: 0.52;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
+    
 
 .slider_container {
     width: 1110px;
     height: 600px;
     margin: 0 auto;
     position: absolute;
-    top: 0;
+    top: 92px;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .navigation {
@@ -200,6 +183,8 @@ img {
 .prev-btn {
     left: 0;
     background-image: url(../pictures/strelka1.png);
+  
+    
 }
 
 .next-btn {
@@ -258,13 +243,18 @@ img {
 }
 
 .products {
-    width: 1110px;
-    height: 676px;
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e9f0fd;
 }
 
+.over_products
+{
+    width: 1110px;
+    margin: 0 auto;
+}
 
 .section-title {
     margin: 0;
@@ -505,6 +495,13 @@ img {
     background-color: #1abc9c;
 }
 
+.image_box button {
+    border: none;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+}
 
 .footer {
     height: 88px;
@@ -514,6 +511,7 @@ img {
     background-color:  #323232;
     padding-top: 38px;
     text-align: center;
+
 }
 
 .over_text {
