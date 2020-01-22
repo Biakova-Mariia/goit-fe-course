@@ -206,13 +206,23 @@ img {
     background-color: #f38181;
     position: absolute;
     bottom: -42px;
-    left: 47%;
+    left: 39%;
 }
+
+.flex_title {
+    width: 315px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 111px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 .section_menu {
     margin: 0;
     padding: 0;
-    padding-top: 111px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -304,6 +314,16 @@ img {
     padding-bottom: 82px;
 }
 
+.flex_title-team {
+    width: 315px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 86px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .team-title {
     margin: 0;
     padding: 0;
@@ -322,7 +342,7 @@ img {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 86px;
+    
     position: relative;
     }
 
@@ -333,7 +353,7 @@ img {
     background-color: #f38181;
     position: absolute;
     bottom: -42px;
-    left: 47%;
+    left: 39%;
 }
 
 .team_text {
@@ -429,6 +449,8 @@ img {
 }
 
 .frame {
+    display: block;
+    text-decoration: none;
     padding: 0;
     background-color: transparent;
     width: 56px;
