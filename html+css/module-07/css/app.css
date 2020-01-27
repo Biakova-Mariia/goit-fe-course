@@ -1,0 +1,379 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Montserrat-font';
+    src: url('../font/montserrat-v14-latin-regular') format('truetype');
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: 'Montserrat-font';
+    src: url('../font/montserrat-v14-latin-700.woff') format('truetype');
+    font-weight: 700;
+
+}
+
+
+
+@font-face {
+    font-family: 'Roboto Slab-font';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'Droid Serif-font';
+    src: url('../font/DroidSerif-Italic-webfont.woff') format('truetype');
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: 'Wisdom-Script-font';
+    src: url('../font/Wisdom Script AJ.woff') format('truetype');
+    font-weight: 400;
+
+}
+
+
+body {
+    margin: 0;
+    font-family: "Montserrat","Roboto Slab","Droid Serif","Wisdom-Script","Open Sans", sans-serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-nav {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    min-height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+
+.site-logo { 
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.site-logo a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fed136;
+    font-family: "Wisdom-Script-font";
+    font-size: 26px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 41px;
+    letter-spacing: 1.3px;
+    display: inline-block;
+
+    
+}
+
+.header-menu {
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #222222;
+    font-family: "Montserrat-font";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    display: inline-block;
+} 
+
+.header-menu a:hover,
+.header-menu a:focus {
+    color: #fed136;
+} 
+
+.services {
+    padding: 0;
+    padding-top: 102px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-family: "Montserrat-font";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 2px;
+   
+}
+
+.section-title2 {
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    font-family: "Droid Serif-font";
+    font-size: 16px;
+    font-style: italic;
+
+    }
+
+    .flex_title {
+        width: 296px;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 76px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
+    .menu_item {
+        padding-top: 70px;
+        flex: 0 0 274px;
+        text-align: center;
+        position: relative;
+        
+
+    }
+    
+    
+    .item_title {
+        margin: 0;
+        padding: 0;
+        color: #222222;
+        font-family: "Montserrat-font";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: -0.45px;
+        
+    }
+    
+    
+    .item_text {
+        margin: 0;
+        padding: 0;
+        color: #777777;
+        font-family: "Roboto Slab-font";
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.35px;
+    }
+    
+    .menu_item::before {
+        content: "";
+        display: block;
+        width: 74px;
+        height: 74px;
+        border: 3px solid #fed136;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        left: 100px;
+        top: 0;
+        cursor: pointer;
+       
+    }
+
+    .item_img1::before {
+        background-image: url(../pictures/Icon-Basket.png);
+    }
+    
+    .item_img2::before {
+        background-image: url(../pictures/Icon-Laptop.png);
+    }
+    
+    .item_img3::before {
+        background-image: url(../pictures/Icon-Locked.png);
+    }
+    
+    .footer {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0;
+        background-color: #222222;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    
+    .footer-data {
+        padding: 110px  0 114px 0;
+        position: relative;
+    }
+
+    .footer-data::after {
+        content: "";
+        background-image: url(../pictures/Map_Image.png);
+        background-repeat: no-repeat;
+        display: block;
+        width: 614px;
+        height: 537px;
+        position: absolute;
+        left: 556px;
+        bottom: 19px;
+    }
+
+
+    .footer-title {
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-family: "Montserrat-font";
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-bottom: 23px;
+    }
+    
+    .footer-title2 {
+        margin: 0;
+        padding: 0;
+        color: #777777;
+        font-family: "Droid Serif-font";
+        font-size: 16px;
+        font-style: italic;
+        
+        
+        }
+    
+        .flex_title_footer {
+            margin: 0 auto;
+            padding: 0;
+            width: 296px;
+            margin-bottom: 76px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+         .contact-form {
+            max-width: 100%;
+            height: 388px;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        
+        }
+
+        .contact-form::after {
+            
+            position: absolute;
+            bottom: 0;
+            left: 0;
+    
+        }
+
+        .overlay_input {
+            margin: 0;
+            padding: 0;
+            width: 455px;
+            height: 210px;
+            margin-bottom: 30px;
+            
+        }
+        
+        .form-field {
+            width: 455px;
+            height: 50px;
+            margin-bottom: 29px;
+            padding: 0;
+            padding-left: 20px;
+            border: 1px solid #cccccc;
+            background-color: #ffffff;
+            color: #bbbbbb;
+            font-family: "Montserrat-font";
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.35px;
+        }
+        
+        .form-field:last-child {
+            margin-bottom: 0;
+        }
+
+
+        .big-field {
+            height: 210px;
+            margin-bottom: 30px;
+        }
+        
+        .form_button {
+            margin: 0 auto;
+            padding: 0;
+            border: none;
+            background-color: #fed136;
+            width: 240px;
+            height: 66px;
+            color: #ffffff;
+            font-family: "Montserrat-font";
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            
+        }
+        
+       
+          input:required:invalid { 
+            outline: 1px solid red;
+          } 
+
+
+          input:required:valid { 
+            outline: 1px solid green;
+          }
