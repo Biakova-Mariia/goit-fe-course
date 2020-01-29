@@ -9,14 +9,14 @@ html {
 }
 
 @font-face {
-    font-family: 'Montserrat-font';
-    src: url('../font/montserrat-v14-latin-regular') format('truetype');
+    font-family: 'Montserrat-400-font';
+    src: url('../font/montserrat-v14-latin-regular.woff') format('truetype');
     font-weight: 400;
 
 }
 
 @font-face {
-    font-family: 'Montserrat-font';
+    font-family: 'Montserrat-700-font';
     src: url('../font/montserrat-v14-latin-700.woff') format('truetype');
     font-weight: 700;
 
@@ -112,9 +112,8 @@ img {
 .header-menu a {
     text-decoration: none;
     color: #222222;
-    font-family: "Montserrat-font";
+    font-family: "Montserrat-400-font";
     font-size: 14px;
-    font-weight: 400;
     line-height: 41px;
     text-transform: uppercase;
     display: inline-block;
@@ -136,9 +135,8 @@ img {
     margin: 0;
     padding: 0;
     color: #222222;
-    font-family: "Montserrat-font";
+    font-family: "Montserrat-700-font";
     font-size: 40px;
-    font-weight: 700;
     line-height: 75px;
     text-transform: uppercase;
     letter-spacing: -1px;
@@ -153,19 +151,11 @@ img {
     font-family: "Droid Serif-font";
     font-size: 16px;
     font-style: italic;
+    margin-bottom: 76px;
 
     }
 
-    .flex_title {
-        width: 296px;
-        margin: 0 auto;
-        padding: 0;
-        margin-bottom: 76px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
+    
     .section_menu {
         margin: 0;
         padding: 0;
@@ -174,13 +164,14 @@ img {
         flex-wrap: wrap;
         justify-content: space-between;
         
+        
     }
     
     .menu_item {
-        padding-top: 70px;
         flex: 0 0 274px;
         text-align: center;
-        position: relative;
+        align-items: center;
+        
         
 
     }
@@ -190,9 +181,8 @@ img {
         margin: 0;
         padding: 0;
         color: #222222;
-        font-family: "Montserrat-font";
+        font-family: "Montserrat-700-font";
         font-size: 18px;
-        font-weight: 700;
         line-height: 75px;
         letter-spacing: -0.45px;
         
@@ -211,16 +201,13 @@ img {
     
     .menu_item::before {
         content: "";
-        display: block;
+        display: inline-block;
         width: 74px;
         height: 74px;
         border: 3px solid #fed136;
         border-radius: 50%;
         background-repeat: no-repeat;
         background-position: center;
-        position: absolute;
-        left: 100px;
-        top: 0;
         cursor: pointer;
        
     }
@@ -237,23 +224,24 @@ img {
         background-image: url(../pictures/Icon-Locked.png);
     }
     
-    .footer {
+    .form {
         margin: 0 auto;
         padding: 0;
         font-size: 0;
         background-color: #222222;
         display: flex;
+        text-align: center;
         align-items: center;
         justify-content: space-between;
        
     }
     
-    .footer-data {
+    .form-data {
         padding: 110px  0 114px 0;
         position: relative;
     }
 
-    .footer-data::after {
+    .form-data::after {
         content: "";
         background-image: url(../pictures/Map_Image.png);
         background-repeat: no-repeat;
@@ -266,38 +254,11 @@ img {
     }
 
 
-    .footer-title {
-        margin: 0;
-        padding: 0;
+    .section2-title {
         color: #ffffff;
-        font-family: "Montserrat-font";
-        font-size: 40px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: -1px;
         margin-bottom: 23px;
     }
-    
-    .footer-title2 {
-        margin: 0;
-        padding: 0;
-        color: #777777;
-        font-family: "Droid Serif-font";
-        font-size: 16px;
-        font-style: italic;
-        
-        
-        }
-    
-        .flex_title_footer {
-            margin: 0 auto;
-            padding: 0;
-            width: 296px;
-            margin-bottom: 76px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+          
 
          .contact-form {
             max-width: 100%;
@@ -322,23 +283,19 @@ img {
             margin: 0;
             padding: 0;
             width: 455px;
-            height: 210px;
-            margin-bottom: 30px;
             
         }
         
         .form-field {
             width: 455px;
             height: 50px;
-            margin-bottom: 29px;
-            padding: 0;
-            padding-left: 20px;
+            margin-bottom: 30px;
+            padding: 10px  0 0 10px;
             border: 1px solid #cccccc;
             background-color: #ffffff;
             color: #bbbbbb;
-            font-family: "Montserrat-font";
+            font-family: "Montserrat-700-font";
             font-size: 14px;
-            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: -0.35px;
         }
@@ -348,32 +305,38 @@ img {
         }
 
 
-        .big-field {
+        .textarea-field {
             height: 210px;
-            margin-bottom: 30px;
+            margin-bottom: 0;
         }
         
         .form_button {
             margin: 0 auto;
             padding: 0;
             border: none;
+            border-radius: 1px;
             background-color: #fed136;
             width: 240px;
             height: 66px;
             color: #ffffff;
-            font-family: "Montserrat-font";
+            font-family: "Montserrat-700-font";
             font-size: 18px;
-            font-weight: 700;
             text-transform: uppercase;
             
         }
         
+        .form_button:hover {
+            cursor: pointer;
+            border: 2px solid #777777;
+
+        }
        
-          input:required:invalid { 
+        .form-field:invalid { 
             outline: 1px solid red;
           } 
 
 
-          input:required:valid { 
+        .form-field:valid { 
             outline: 1px solid green;
           }
+
