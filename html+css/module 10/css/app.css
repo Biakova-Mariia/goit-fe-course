@@ -504,14 +504,14 @@ img {
 
 .team-wrapper__link {
     display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     justify-content: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    /* -webkit-box-pack: center;
+    -ms-flex-pack: center; */
     align-items: center;
+    /* -webkit-box-align: center;
+    -ms-flex-align: center; */
     background-color: transparent;
     width: 56px;
     height: 56px;
