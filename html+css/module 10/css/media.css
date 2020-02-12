@@ -1,0 +1,29 @@
+@media (min-resolution: 192dpi), (min-resolution: 2dppx)
+{
+  .item_img1::before {
+    background-image: url(../pictures/ALARM@2x.png);
+}
+
+.item_img2::before {
+    background-image: url(../pictures/LINE_GRAPH@2x.png);
+}
+
+.item_img3::before {
+    background-image: url(../pictures/_OK@2x.png);
+}
+
+.item_img4::before {
+    background-image: url(../pictures/BOOK_2@2x.png);
+}
+
+.item_img5::before {
+    background-image: url(../pictures/HOME@2x.png);
+}
+
+.item_img6::before {
+    background-image: url(../pictures/IMAGE@2x.png);
+}
+
+
+
+};
