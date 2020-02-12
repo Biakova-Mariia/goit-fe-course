@@ -9,13 +9,15 @@
 @media (min-width: 670px) {
 
   .container {
-    width: 670px;
+    width: 650px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0;
+    /* padding: 0 40px; */
   }
 
   .header {
     height: 700px;
+  
   }
 
   .page-nav {
@@ -88,12 +90,13 @@ font-size: 22px;
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   .container {
     width: 940px;
     padding: 0;
     
   }
+
 
   .page-nav {
     padding-top: 46px;
