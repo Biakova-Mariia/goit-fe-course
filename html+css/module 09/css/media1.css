@@ -1,0 +1,201 @@
+
+
+@media (min-width: 320px) and (max-width: 669px) {
+  
+.navigation {
+  margin-bottom: 38px;
+  padding-top: 32px;
+  text-align: center;
+  
+}
+
+.header-menu {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+
+}
+
+.header-section__title--white {
+  width: 300px;
+
+}
+
+.header-section__data {
+  margin-bottom: 19px;
+}
+
+.header-section__link {
+  margin-bottom: 138px;
+}
+
+.section-partners {
+  padding-top: 69px;
+}
+
+
+.section-partners__title {
+  margin-bottom: 15px;
+}
+
+.section__link {
+  padding-top:  29px;
+  margin-bottom: 57px;
+}
+
+.section-partners__cards [class*="col-"]:not(:last-child) {
+  margin-bottom: 29px;
+}
+
+}
+
+
+@media (min-width: 670px) and (max-width: 991px) {
+  
+  .container .container-md {
+    width: 650px;
+
+  }
+
+  .navigation {
+    margin-bottom: 158px;
+    padding-top: 46px;
+    
+  }
+
+.page-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.site-logo {
+  margin: 0;
+}
+
+.header-section__data {
+  margin-bottom: 34px;
+}
+
+.header-section__title--white {
+  max-width: 600px;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.header-section__text {
+  font-size: 24px;
+}
+
+.header-section__link {
+  margin-bottom: 234px;
+}
+
+.section-partners {
+  padding-top: 72px;
+}
+
+.section-partners__title {
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+
+.section-partners__cards [class*="col-"]:nth-child(-n+2) {
+  margin-bottom: 59px;
+}
+
+
+.section__link {
+  padding-top:  39px;
+  margin-bottom: 40px;
+
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+}
+
+
+@media (min-width: 992px)  {
+
+  .container .container-md  .container-lg {
+    width: 960px;
+    padding: 0;
+    
+  }
+
+
+  .navigation {
+    margin-bottom: 158px;
+    padding-top: 46px;
+    
+  }
+
+.page-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+.site-logo {
+  margin: 0;
+}
+
+.header-section__data {
+  margin-bottom: 34px;
+}
+
+.header-section__title--white {
+  max-width: 600px;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.header-section__text {
+  font-size: 24px;
+}
+
+.header-section__link {
+  margin-bottom: 234px;
+}
+
+.section-partners {
+  padding-top: 70px;
+  text-align: center;
+
+}
+
+.section-partners__title {
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+
+.section__link {
+  padding-top:  39px;
+  margin-bottom: 73px;
+
+}
+
+}

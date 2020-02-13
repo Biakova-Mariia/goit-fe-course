@@ -1,0 +1,252 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat-Regular","Montserrat-Bold","Roboto-Light", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Montserrat-Bold";
+
+}
+
+.title {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Montserrat-Bold";
+}
+
+
+/* .container {
+  margin: 0 auto;
+  width: 300px;
+} */
+
+.header {
+  background-image: url(../pictures/Vector_Smart_Object.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0.10, 0.10, 0.08, 1);
+  text-align: center;
+  /* height: 540px; */
+}
+
+.page-nav {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+.header-menu {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+
+.site-logo { 
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+
+.site-logo__link {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  
+
+}
+
+.header-menu {
+  margin: 0;
+  padding: 0;
+  width: 160px;
+}
+
+.header-menu__link {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  position: relative;
+  
+}
+
+
+.header-menu__link::before {
+  position: absolute;
+  content: "";
+  background-image: url(../pictures/frame.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 96px;
+  height: 36px;
+  top: -10px;
+  visibility: hidden;
+
+}
+
+.header-menu__link--log::before {
+  left: -27px;
+}
+
+.header-menu__link--sign::before {
+  left: -22px;
+}
+
+.header-menu li:hover .header-menu__link::before {
+  visibility: visible;
+ } 
+ 
+.header-section__title--white {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.header-section__text {
+  margin: 0 52px;
+  padding: 0;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 18px;
+  color: #fff;
+ 
+
+}
+
+
+.header__link {
+  color: #fff;
+  font-size: 14px;
+  background-image: url(../pictures/Rectangle_3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 12px 52px;
+ 
+  
+}
+
+.section-partners {
+  text-align: center;
+}
+
+.section-partners__title--black{
+  font-size: 22px;
+  color: rgb(0.2, 0.2, 0.2);
+  
+}
+
+.section-partners__item {
+  width: 218px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  
+}
+
+.section-partners__item::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 80px;
+  right: 43px;
+  
+}
+
+.cover-img--1::after {
+  background-image: url(../pictures/tv.png);
+  
+}
+
+.cover-img--2::after {
+  background-image: url(../pictures/botle.png);
+  
+}
+
+.cover-img--3::after {
+  background-image: url(../pictures/cup_of_tea.png);
+  
+}
+
+.cover-img--4::after {
+  background-image: url(../pictures/telegram.png);
+}
+
+.section-partners__item h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(0.2, 0.2, 0.2);
+  font-family: "Montserrat-Bold";
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+
+.section-partners__text {
+  margin: 0;
+  padding: 0;
+  color: #b2b2b2;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+}
+
+.section__link--pink-frame {
+  background-image: url(../pictures/pink_frame.png);
+  color: #ff6666;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 12px 52px;
+  width: 280px;
+}
+
+.section__link:hover {
+  color: #f266ff;
+  }
