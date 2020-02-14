@@ -1,0 +1,88 @@
+.title {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title__unit--italics {
+  margin: 0;
+  padding: 0;
+  color: $grey-color;
+  font-family: "KaushanScript-font";
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.title__unit--bold {
+  margin: 0;
+  padding: 0;
+  color: $grey-color;
+  font-family: "Montserrat-700";
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.title__unit--bold::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: $pink-color;
+  position: absolute;
+  bottom: -42px;
+  left: 39%;
+}
+
+.header-title__unit--italics {
+  font-family: "KaushanScript-font";
+  color: $primary-white-color;
+  font-size: 72px;
+  margin-bottom: 42px;
+}
+
+.header-title__unit--bold {
+  color: $primary-white-color;
+  font-family: "Montserrat-700";
+  font-size: 150px;
+  line-height: 140px;
+  text-transform: uppercase;
+}
+
+.header-title {
+  width: 520px;
+  margin-bottom: 124px;
+}
+
+.services-title {
+  width: 315px;
+  margin-bottom: 111px;
+}
+
+.services-menu__title {
+  margin: 0;
+  padding: 0;
+  color: $grey-color;
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+ 
+}
+
+.team-title {
+  width: 315px;
+  margin-bottom: 86px;
+}
+
+.team-menu__title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: $grey-color;
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+

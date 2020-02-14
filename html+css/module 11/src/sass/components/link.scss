@@ -1,0 +1,120 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.site-logo { 
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.site-logo__link {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: flex-start;
+  color: $primary-white-color;
+  font-family: "Montserrat-700";
+  font-size: 30px;
+}
+
+.header-menu__link {
+  color: $primary-white-color;
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:hover,
+  &:focus {
+  color: $yellow-color;
+} 
+} 
+
+.header-menu__link::after {
+  content: "";
+  height: 3px;
+  background-color: $yellow-color;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  opacity: 0;
+  transition: $transition;
+  -webkit-transition: linear 200ms;
+  -o-transition: linear 200ms;
+  &:hover {opacity: 1;
+  }
+
+}
+
+// .header-menu__link:hover::after {
+//   opacity: 1;
+// }
+
+
+.header-menu__link--yellow1::after {
+  width: 50px;
+}
+
+.header-menu__link--yellow2::after {
+  width: 61px;
+}
+
+.header-menu__link--yellow3::after {
+  width: 43px;
+}
+
+.header-menu__link--yellow4::after {
+  width: 38px;
+}
+
+.header-menu__link--yellow5::after {
+  width: 66px;
+}
+
+
+// .header-menu__link:hover,
+// .header-menu__link:focus {
+//   color: #fce38a;
+// } 
+
+
+
+.header__link--more-text {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 3px solid $primary-white-color;
+  color: $primary-white-color;
+  font-family: "Montserrat-700";
+  font-size: 14px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $yellow-color;
+    border: 3px solid $pink-color;
+    color: $pink-color;
+  }
+}
+
+.team-wrapper__link {
+  display: flex;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  justify-content: center;
+  /* -webkit-box-pack: center;
+  -ms-flex-pack: center; */
+  align-items: center;
+  /* -webkit-box-align: center;
+  -ms-flex-align: center; */
+  background-color: transparent;
+  width: 56px;
+  height: 56px;
+  background-color: $yellow-color;
+  border: none;
+  border-right: 1px solid $pink-color;
+  
+}

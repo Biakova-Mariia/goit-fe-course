@@ -1,0 +1,16 @@
+.header-menu {
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    list-style: none;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    transition: linear 200ms;
+    -webkit-transition: linear 200ms;
+    -o-transition: linear 200ms;
+}
+

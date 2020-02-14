@@ -1,0 +1,40 @@
+.footer {
+  min-height: 62px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  border-top: 1px solid $white-color-second;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+ 
+}
+
+.wrapper-text {
+  margin: 0;
+  padding: 0;
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  text-align: center;
+  
+}
+
+.wrapper-text__unit {
+  margin: 0;
+  padding: 0;
+  color: $grey-color;
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  
+}
+
+.wrapper-text__unit--coral-text {
+  color: $pink-color;
+}

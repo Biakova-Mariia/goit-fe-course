@@ -1,0 +1,35 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.services-menu__item--alarm::before {
+  background-image: url(..//../images/ALARM.png);
+}
+
+.services-menu__item--line::before {
+  background-image: url(..//../images/LINE_GRAPH.png);
+}
+
+.services-menu__item--OK::before {
+  background-image: url(..//../images/_OK.png);
+}
+
+.services-menu__item--book::before {
+  background-image: url(..//../images/BOOK_2.png);
+}
+
+.services-menu__item--home::before {
+  background-image: url(..//../images/HOME.png);
+}
+
+.services-menu__item--image::before {
+  background-image: url(..//../images/IMAGE.png);
+}
+
+.team-menu__image {
+  display: block;
+  margin: 0;
+  max-width: 380px;
+  margin-bottom: 30px;
+}
