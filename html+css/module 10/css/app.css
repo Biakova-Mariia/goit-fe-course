@@ -85,7 +85,7 @@ img {
     justify-content: center;
 }
 
-.title__unit_italics {
+.title__unit--italics {
     margin: 0;
     padding: 0;
     color: #333333;
@@ -94,7 +94,7 @@ img {
     margin-bottom: 22px;
 }
 
-.title__unit_bold {
+.title__unit--bold {
     margin: 0;
     padding: 0;
     color: #333333;
@@ -104,7 +104,7 @@ img {
     position: relative;
 }
 
-.title__unit_bold::after {
+.title__unit--bold::after {
     content: "";
     height: 3px;
     width: 60px;
@@ -129,7 +129,8 @@ img {
     url(..//pictures/Layer_15@2x-min.jpg) 2x);
     background-position: center;
     background-repeat: no-repeat;
-    width: 1920px;
+    background-size: cover;
+    
 
 }
 
@@ -211,23 +212,23 @@ img {
 }
 
 
-.header-menu__link_yellow1::after {
+.header-menu__link--yellow1::after {
     width: 50px;
 }
 
-.header-menu__link_yellow2::after {
+.header-menu__link--yellow2::after {
     width: 61px;
 }
 
-.header-menu__link_yellow3::after {
+.header-menu__link--yellow3::after {
     width: 43px;
 }
 
-.header-menu__link_yellow4::after {
+.header-menu__link--yellow4::after {
     width: 38px;
 }
 
-.header-menu__link_yellow5::after {
+.header-menu__link--yellow5::after {
     width: 66px;
 }
 
@@ -244,14 +245,14 @@ img {
 
 
 
-.header-title__unit_italics {
+.header-title__unit--italics {
     font-family: "KaushanScript-font";
     color: #ffffff;
     font-size: 72px;
     margin-bottom: 42px;
 }
 
-.header-title__unit_bold {
+.header-title__unit--bold {
     color: #ffffff;
     font-family: "Montserrat-700";
     font-size: 150px;
@@ -264,7 +265,7 @@ img {
     margin-bottom: 124px;
 }
 
-.header__link_more-text {
+.header__link--more-text {
     display: inline-block;
     padding: 14px 32px;
     border: 3px solid #fff;
@@ -274,7 +275,7 @@ img {
     text-transform: uppercase;
 }
 
-.header__link_more-text:hover {
+.header__link--more-text:hover {
     background-color: #fce38a;
     border: 3px solid #f38181;
     color: #f38181;
@@ -359,27 +360,27 @@ img {
     left: 0;
 }
 
-.services-menu__item_alarm::before {
+.services-menu__item--alarm::before {
     background-image: url(../pictures/ALARM.png);
 }
 
-.services-menu__item_line::before {
+.services-menu__item--line::before {
     background-image: url(../pictures/LINE_GRAPH.png);
 }
 
-.services-menu__item_OK::before {
+.services-menu__item--OK::before {
     background-image: url(../pictures/_OK.png);
 }
 
-.services-menu__item_book::before {
+.services-menu__item--book::before {
     background-image: url(../pictures/BOOK_2.png);
 }
 
-.services-menu__item_home::before {
+.services-menu__item--home::before {
     background-image: url(../pictures/HOME.png);
 }
 
-.services-menu__item_image::before {
+.services-menu__item--image::before {
     background-image: url(../pictures/IMAGE.png);
 }
 
@@ -479,7 +480,7 @@ img {
     z-index: 2;
 }
 
-.team-image_border-wrapper {
+.team-image--border-wrapper {
     margin: 0;
     padding: 0;
     width: 380px;
@@ -539,7 +540,7 @@ img {
 
 
 .team-menu__item:hover  .team-wrapper,
-.team-menu__item:hover .team-image_border-wrapper
+.team-menu__item:hover .team-image--border-wrapper
 {
     opacity: 1;
     cursor: pointer;
@@ -584,7 +585,7 @@ img {
     
 }
 
-.wrapper-text__unit_coral-text {
+.wrapper-text__unit--coral-text {
     color: #f38181;
 }
 
